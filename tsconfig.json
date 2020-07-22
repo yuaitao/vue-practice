@@ -4,9 +4,6 @@
         "module": "esnext",
         "strict": true,
         "jsx": "preserve",
-        "noImplicitThis": true, // 不允许this有隐式的any类型
-        "noUnusedLocals": true, // 检查只声明、未使用的局部变量(只提示不报错)
-        "noUnusedParameters": true, // 检查未使用的函数参数(只提示不报错)
         "importHelpers": true,
         "moduleResolution": "node",
         "experimentalDecorators": true,
