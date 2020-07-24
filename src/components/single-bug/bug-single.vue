@@ -15,7 +15,14 @@
       重新更新了 TSLint
       然后在package.json文件中的eslintConfig：{}中的 “rules”: {加入"no-console":“off”},
 
-    </div> {{ Name}}
+      vuepress 搭建
+
+      https://www.jianshu.com/p/f926e448e94c
+
+      踩坑
+      https://article.itxueyuan.com/e1GaBy
+
+    </div>
   </div>
 </template>
 
@@ -26,4 +33,4 @@ export default class BugSingle extends Vue {}
 </script> 
 <style lang='scss' scoped>
 //@import url(); 引入公共css类
-</style>
+</style> 

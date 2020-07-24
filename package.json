@@ -5,11 +5,16 @@
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
-        "lint": "vue-cli-service lint"
+        "lint": "vue-cli-service lint",
+        "docs:build": "vuepress build docs",
+        "deploy": "bash deploy.sh"
     },
     "dependencies": {
+        "autoprefixer": "^9.8.5",
         "core-js": "^3.6.5",
         "element-ui": "^2.13.2",
+        "postcss-cli": "^7.1.1",
+        "tailwindcss": "^1.5.2",
         "tslint-config-airbnb-base": "^0.3.0",
         "vue": "^2.6.11",
         "vue-class-component": "^7.2.3",

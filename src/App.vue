@@ -1,30 +1,22 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view /> -->
-    <el-container>
-      <el-header>Header</el-header>
+    <!-- <h1 class="bg-teal-900 mt-6 text-2xl font-bold text-gray-900 leading-tight">MIRRORS</h1> -->
+    <!-- <el-container>
+      <el-aside>
+        <MyNavigation></MyNavigation>
+      </el-aside>
       <el-container>
-        <!-- 左边导航 -->
-        <el-aside>
-          <MyNavigation></MyNavigation>
-        </el-aside>
-        <el-container>
-          <!-- 中间 -->
-          <el-main>
-            <router-view />
-          </el-main>
-          <el-footer>Footer</el-footer>
-        </el-container>
+        <el-header>Header</el-header>
+        <el-main>
+          <router-view />
+        </el-main>
+        <el-footer>Footer</el-footer>
       </el-container>
-    </el-container>
+    </el-container> -->
 
   </div>
 </template>
-
+  
 <script>
 import MyNavigation from '@/page/navigation/letf-navigation.vue'
 import { Vue, Component } from 'vue-property-decorator';
@@ -44,21 +36,21 @@ export default class App extends Vue {
 <style >
 .el-header,
 .el-footer {
-  background-color: #b3c0d1;
+  background-color: #ffffff;
   color: #333;
   text-align: center;
   line-height: 60px;
 }
 
 .el-aside {
-  background-color: #d3dce6;
+  background-color: #ffffff;
   color: #333;
   text-align: center;
   /* line-height: 100px; */
 }
 
 .el-main {
-  background-color: #e9eef3;
+  background-color: #ffffff;
   color: #333;
   text-align: center;
   line-height: 160px;
